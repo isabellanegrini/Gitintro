@@ -4,5 +4,5 @@ def fibo(N):
 	else:
 		return fibo(N-1)+fibo(N-2)
 
-if _name_=="_main_":
+if __name__=="__main__":
 	print ("fibo(5)", fibo(5))
